@@ -38,7 +38,14 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
+.section-title{
+    font-size: 2.5em;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 40px; /* Space for fixed navbar */
+}
 h1, h2, h3, h4 {
     color: var(--primary-color);
     margin-bottom: 0.8em;
